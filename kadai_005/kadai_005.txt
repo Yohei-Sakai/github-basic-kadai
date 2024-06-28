@@ -1,0 +1,31 @@
+0900746@18T13537 MINGW64 ~/git_tutorial (main)
+$ mkdir git_challenge
+
+0900746@18T13537 MINGW64 ~/git_tutorial (main)
+$ cd git_challenge
+
+0900746@18T13537 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git init
+Initialized empty Git repository in C:/Users/0900746/git_tutorial/git_challenge/.git/
+
+0900746@18T13537 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git add hello_world.txt
+
+0900746@18T13537 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) 7d4b558] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+0900746@18T13537 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git add hello_world.txt
+
+0900746@18T13537 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main f121c8b] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+0900746@18T13537 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git log --oneline
+f121c8b (HEAD -> main) 日本語訳を追記
+7d4b558 hello_world.txtを追加
